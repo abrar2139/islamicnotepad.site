@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #0d3b0d;
+}
+
+/* Header */
+header {
+  background-color: #d8f3dc;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.logo h1 {
+  color: #065f46;
+  font-size: 28px;
+  font-weight: 700;
+}
+.logo span {
+  color: #10b981;
+}
+
+nav a {
+  text-decoration: none;
+  color: #065f46;
+  margin-left: 20px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+nav a:hover {
+  color: #10b981;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  height: 80vh;
+  background: url('https://i.ibb.co/X2shkGw/quran-bg.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+.overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 64, 0, 0.45);
+  backdrop-filter: blur(2px);
+}
+.hero-text {
+  position: relative;
+  z-index: 1;
+  max-width: 700px;
+}
+.hero-text h2 {
+  font-size: 40px;
+  color: #eaffea;
+  text-shadow: 0 0 10px #00ff88;
+}
+.hero-text span {
+  color: #9fffcb;
+}
+.hero-text p {
+  margin-top: 15px;
+  font-size: 18px;
+}
+.btn {
+  margin-top: 25px;
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #10b981;
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: #065f46;
+}
+
+/* About Section */
+.about {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #f0fff4;
+}
+.about h2 {
+  font-size: 28px;
+  color: #065f46;
+  margin-bottom: 15px;
+}
+.about p {
+  max-width: 800px;
+  margin: auto;
+  font-size: 17px;
+  color: #0d3b0d;
+}
+
+/* Footer */
+footer {
+  background-color: #d8f3dc;
+  text-align: center;
+  padding: 15px;
+  color: #065f46;
+  font-weight: 600;
+  }
