@@ -240,6 +240,9 @@ position: relative;
     color: var(--gold);
     transform: translateX(10px);
 }
+.btn a:hover{
+    color: var(--gold);
+}
 .btn:hover::before{
     width: 100%;
 }
